@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        html{
+            width: 450px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h3 id="first">Тайны следствия. 23 сезон</h3>
+        <p></p>
+        <h3 id="second">Челночницы. Продолжение</h3>
+        <p></p>
+        <h3 id="third">Заговор на одиночество. Художественный фильм.</h3>
+        <p></p>
+        <h3 id="fourth">По велению сердца</h3>
+        <p></p>
+        <h3 id="fifth">Четвертая отрицательная</h3>
+    </div>
+
+    <script>
+        document.querySelector('#first').addEventListener('click', function () {
+            window.location.href = 'https://www.youtube.com/playlist?list=PLrJCJ2iOgThvBlg9pW7ZyHiodjyiMkv_i';
+        });
+        document.querySelector('#second').addEventListener('click', function () {
+            window.location.href = 'https://www.youtube.com/playlist?list=PLrJCJ2iOgThthwmFLPo9EnqEY82plLnWo';
+        });
+        document.querySelector('#third').addEventListener('click', function () {
+            window.location.href = 'https://youtu.be/TxbFQvMIjxQ';
+        });
+        document.querySelector('#fourth').addEventListener('click', function () {
+            window.location.href = 'https://youtu.be/uoThugkXh3k';
+        });
+        document.querySelector('#fifth').addEventListener('click', function () {
+            window.location.href = 'https://youtu.be/ZTKvQZwbB0A';
+        });
+    </script>
+</body>
+</html>
